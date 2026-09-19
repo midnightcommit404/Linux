@@ -1,0 +1,92 @@
+body {
+    background-color: #222222;
+    color: #E8E6E3;
+    font-family: Fira Code, monospace;
+    margin: 0;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 36px;
+    text-align: center;
+    margin: 50px 20px 35px 20px;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 26px;
+    margin-top: 45px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #444444;
+}
+
+h3 {
+    color: #D9D5E8;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+p {
+    color: #E8E6E3;
+    line-height: 1.7;
+}
+
+a {
+    color: #9B8FC7;
+}
+
+a:hover {
+    color: #B3A8D8;
+    text-decoration: underline;
+}
+
+nav {
+    background-color: #2C2C2C;
+    padding: 15px;
+    border-top: 1px solid #444444;
+    border-bottom: 1px solid #444444;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 25px;
+}
+
+nav a {
+    color: #E8E6E3;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #B3A8D8;
+}
+
+div {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px 30px;
+}
+
+img {
+    padding: 5px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #444444;
+    margin: 20px;
+}
+
+pre {
+    color: #E8E6E3;
+    background-color: #181818;
+    padding: 15px;
+    line-height: 1.7;
+}

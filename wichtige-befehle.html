@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wichtige Befehle</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Startseite</a></li>
+      <li><a href="distros.html">Linux Distributionen</a></li>
+      <li><a tabindex="0" aria-current="page">Wichtige Befehle</a></li>
+      <li><a href="kontakt.html">Kontakt und Impressum</a></li>
+    </ul>
+  </nav>
+
+  <div>
+    <h1>Wichtige Linux-Befehle</h1>
+
+    <p>Die folgenden Befehle gehören zu den grundlegenden Linux-Befehlen und sind distributionsübergreifend in Debian,
+      Ubuntu und Gentoo verfügbar. Unterschiede gibt es hauptsächlich bei der Paketverwaltung und einigen
+      distributionsspezifischen Werkzeugen.</p>
+
+    <pre>
+  pwd    → Aktuelles Verzeichnis
+  ls     → Dateien und Ordner auflisten
+  cd     → Verzeichnis wechseln
+  mkdir  → Verzeichnis erstellen
+  touch  → Datei erstellen
+  cp     → Datei kopieren
+  mv     → Verschieben / Umbenennen
+  rm     → Datei löschen
+  cat    → Dateiinhalt anzeigen
+  chmod  → Rechte ändern
+  sudo   → Administratorrechte
+  ps     → Prozesse anzeigen
+  top    → Systemüberwachung
+  ping   → Netzwerk testen
+  ssh    → Remote-Verbindung
+</pre>
+  </div>
+
+  <div>
+    <h2>Weitere wichtige Befehle:</h2>
+    <h3>Software installieren</h3>
+
+    <p>Linux bietet Paketverwaltungen, mit denen Programme einfach installiert,aktualisiert und entfernt werden können.
+    </p>
+    <pre>
+Debian/Ubuntu:
+sudo apt update
+sudo apt install paketname
+
+Gentoo:
+sudo emerge paketname
+</pre>
+
+    <h3>Benutzerverwaltung</h3>
+
+    <pre>
+whoami      → Aktuellen Benutzer anzeigen
+passwd      → Passwort ändern
+id          → Benutzer- und Gruppeninformationen
+</pre>
+
+    <h3>Festplatten und Speicher</h3>
+
+    <pre>
+df -h       → Festplattenbelegung anzeigen
+du -sh      → Größe eines Verzeichnisses anzeigen
+free -h     → Arbeitsspeicher anzeigen
+</pre>
+
+    <h3>Dateien suchen</h3>
+
+    <pre>
+find        → Dateien suchen
+locate      → Schnelle Dateisuche
+grep        → Nach Text in Dateien suchen
+</pre>
+  </div>
+
+</body>
+
+</html>
